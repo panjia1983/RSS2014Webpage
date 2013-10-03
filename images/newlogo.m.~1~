@@ -1,0 +1,15 @@
+I = load('rss-final.png');
+
+nx = size(I, 1);
+ny = size(I, 2);
+
+for x = 1 : nx
+    for y = 1 : ny
+    if I(x, y, 1) == 153 && I(x, y, 2) == 1 && I(x, y, 3) == 0
+       I(x, y, :) = [0,52,120];
+    elseif I(x, y, 1) == 254 && I(x, y, 2) == 203 && I(x, y, 3) == 0
+           I(x, y, :) = [237,172,0];
+    else
+        
+    end
+end
