@@ -45,6 +45,19 @@ div#text {
 	padding-bottom: 20px;
 	z-index:50;
 } 
+
+div#text2 {
+	position: relative;
+	min-height: 400px; 
+	margin-top: -957px;
+	padding-left: 310px;
+	padding-top: -126px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	z-index:50;
+} 
+
+
 	  
 div#menu {
 	position: relative;
@@ -160,4 +173,11 @@ a.text {
 	}
 a.text:hover {
 	color: #B98907;
+	}
+
+a.text2 {
+	color: black;
+	}
+a.text:hover {
+	color: black;
 	}
